@@ -9,10 +9,12 @@ import {MatButtonModule} from '@angular/material/button';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RecompensesComponent } from './recompenses/recompenses.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RecompensesComponent
   ],
   imports: [
     BrowserModule,
