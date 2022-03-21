@@ -24,6 +24,7 @@ import { FormsModule } from '@angular/forms';
 import { FlatpickrModule } from 'angularx-flatpickr';
 import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
 import { CalendrierComponent } from './calendrier/calendrier.component';
+import { MapComponent } from './map/map.component';
 
 FullCalendarModule.registerPlugins([ // register FullCalendar plugins
   dayGridPlugin,
@@ -35,7 +36,8 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     RecompensesComponent,
     ProfileComponent,
     HomeComponent,
-    CalendrierComponent
+    CalendrierComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
