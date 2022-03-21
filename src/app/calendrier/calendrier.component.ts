@@ -7,19 +7,12 @@ import { CalendarOptions } from '@fullcalendar/angular';
   styleUrls: ['./calendrier.component.scss']
 })
 export class CalendrierComponent {
-
-  calendarOptions: CalendarOptions = {
-    initialView: 'dayGridMonth',
-    events: [
-      { title: 'event 1', date: '2019-04-01' },
-      { title: 'event 2', date: '2019-04-02' }
-    ]
+    calendarOptions: CalendarOptions = {
+      initialView: 'dayGridMonth',
+      events: [
+        { title: 'Carton', daysOfWeek: ['1', '6'], startTime: '09:00:00',endTime: '19:30:00', color: 'orange' },
+        { title: 'Tout-venant', daysOfWeek: ['2', '4'],  startTime: '07:00:00',endTime: '21:00:00', color: 'purple' },
+        { title: 'Verre', daysOfWeek: ['3'],  startTime: '14:00:00',endTime: '18:00:00', color: 'red' },        
+      ],
   };
-
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }
