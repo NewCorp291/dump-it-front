@@ -19,7 +19,7 @@
   <mat-sidenav #sidenav>
     <mat-nav-list>
       <a routerLink="" mat-list-item>Accueil</a>
-      <a mat-list-item>Carte</a>
+      <a routerLink="calendrier"  mat-list-item>Calendrier</a>
       <a mat-list-item>Récompense</a>
       <a mat-list-item>A propos</a>
       <a routerLink="profile" mat-list-item>Profile</a>
@@ -27,8 +27,6 @@
   </mat-sidenav>
   <mat-sidenav-content>
     <div style="height: 93.9vh;">
-      <router-outlet>
-      </router-outlet>
     </div>
   </mat-sidenav-content>
 </mat-sidenav-container>
