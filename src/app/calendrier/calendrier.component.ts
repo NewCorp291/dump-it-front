@@ -14,5 +14,6 @@ export class CalendrierComponent {
         { title: 'Tout-venant', daysOfWeek: ['2', '4'],  startTime: '07:00:00',endTime: '21:00:00', color: 'purple' },
         { title: 'Verre', daysOfWeek: ['3'],  startTime: '14:00:00',endTime: '18:00:00', color: 'red' },        
       ],
+    
   };
 }

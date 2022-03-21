@@ -11,5 +11,5 @@ export class RecompensesComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  images = ['../../assets/first.jpg', '../../assets/second.jpg', '../../assets/third.jpg'];
 }
