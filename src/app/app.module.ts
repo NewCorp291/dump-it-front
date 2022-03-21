@@ -22,6 +22,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { FlatpickrModule } from 'angularx-flatpickr';
 import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
+import { CalendrierComponent } from './calendrier/calendrier.component';
 
 FullCalendarModule.registerPlugins([ // register FullCalendar plugins
   dayGridPlugin,
@@ -32,7 +33,8 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     AppComponent,
     RecompensesComponent,
     ProfileComponent,
-    HomeComponent
+    HomeComponent,
+    CalendrierComponent
   ],
   imports: [
     BrowserModule,
