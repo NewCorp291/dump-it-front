@@ -9,8 +9,13 @@ import { CalendarOptions } from '@fullcalendar/angular';
 export class CalendrierComponent {
 
   calendarOptions: CalendarOptions = {
-    initialView: 'daygridMonth'
+    initialView: 'dayGridMonth',
+    events: [
+      { title: 'event 1', date: '2019-04-01' },
+      { title: 'event 2', date: '2019-04-02' }
+    ]
   };
+
 
   constructor() { }
 
