@@ -10,7 +10,7 @@ export class CalendrierComponent {
 
   calendarOptions: CalendarOptions = {
     initialView: 'daygridMonth'
-  }
+  };
 
   constructor() { }
 
