@@ -12,6 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RecompensesComponent } from './recompenses/recompenses.component';
 import { ProfileComponent } from './profile/profile.component';
 import { HomeComponent } from './home/home.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { HomeComponent } from './home/home.component';
     MatIconModule,
     MatListModule,
     MatButtonModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
